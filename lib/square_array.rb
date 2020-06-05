@@ -1,5 +1,7 @@
 def square_array(numbers)
-  while numbers.length do
-    Math.sqrt(numbers)
-  end # your code herexs
+  new_array = []
+  numbers.each do |number|
+    new_array << number**2
+  end
+  p new_array # your code herexs
 end
