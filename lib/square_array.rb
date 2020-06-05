@@ -1,8 +1,8 @@
 def square_array(numbers)
   new_array = []
-  counter = 0
-  while counter < numbers.length
-    new_array << Math.sqrt(counter)
+  index = 0
+  while index < numbers.length do
+    new_array << index[] * index[]
     counter += 1
   end
   p new_array # your code herexs
